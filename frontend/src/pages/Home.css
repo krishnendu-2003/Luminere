@@ -124,9 +124,11 @@
 
 .Home-s3-p3-okp {
     margin: 40px;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 250;
     margin: 10vh;
+    letter-spacing: 4px;
+    line-height: 1.4;
 }
 
 .Home-s3-p3 {
@@ -134,4 +136,38 @@
     flex-direction: row; 
     justify-content: center; 
     align-items: center; 
+}
+.Home-s3-p3-hook img {
+    max-width: 60%;       
+    height: auto; 
+}
+
+.Home-s4 {
+    background-color: #000;
+}
+
+.Home-s4-p1{
+    display: flex;  
+    flex-direction: row; 
+    /* justify-content: center;  */
+    align-items: center; 
+    justify-content: space-between;
+
+}
+.Home-s4-p1-left {
+    display: flex;  
+    flex-direction: column; 
+    justify-content: center; 
+    margin: 5vh;
+}
+.Home-s4-p1-right {
+    display: flex;  
+    flex-direction: row; 
+    margin: 5vh;
+    flex-direction: column; 
+
+}
+.Home-s4-p1-right img {
+    max-width: 70%;       
+    height: auto; 
 }
