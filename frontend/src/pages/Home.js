@@ -45,10 +45,10 @@ function Home() {
                 </h1>
             </div>
             <div className='Home-s2-p4-logo'> {/* Collaborators pictures */}
-                <img src={logo2}/>
-                <img src={logo3}/>
-                <img src={logo4}/>
-                <img src={logo5}/>
+                <img src={logo2} alt="Hack4Bengal Logo"/>
+                <img src={logo3} alt="Merchanzi Logo"/>
+                <img src={logo4} alt="GFG SNU Chapter"/>
+                <img src={logo5} alt="Dised Logo"/>
             </div>
 
         </div>
