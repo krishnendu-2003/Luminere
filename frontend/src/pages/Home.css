@@ -3,17 +3,34 @@
     color: white;
 }
 .Home-s1 {
-    height: 100vh;            
+    height: 90vh;            
     width: 100vw; 
     display: flex;
     justify-content: center; 
+    flex-direction: column;    /* Stack items vertically */
+
     align-items: center; 
     background-color: #000; 
-  }
+}
   
-  .Home-s1-alpha {
+.Home-s1-alpha {
     text-align: center;
     color: white; 
-    font-size: 24px; 
-  }
+    font-size: 34px; 
+
+    font-Weight: '700';
+    letter-Spacing: 4.80;
+
+}
+.button-s1{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 100px;
+    letter-spacing: 2px;
+}
+.button-s1 p{
+    padding:0 20px 0 20px;
+}
+
   
