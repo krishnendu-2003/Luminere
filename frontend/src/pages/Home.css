@@ -162,8 +162,7 @@
 }
 .Home-s4-p1-right {
     display: flex;  
-    flex-direction: row; 
-    margin: 5vh;
+        margin: 5vh;
     flex-direction: column; 
 
 }
@@ -171,3 +170,57 @@
     max-width: 70%;       
     height: auto; 
 }
+
+.Home-s4-p1-left-001 h4 {
+    margin: 5vh 0 5vh 5vh;
+}
+.Home-s4-p1-left-002 h4 {
+    margin: 5vh 0 5vh 5vh;
+    font-size: 30px;
+
+}
+.Home-s4-p1-left-003 h4{
+    font-size: 30px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.Home-s4-p1-left-003 img {
+    max-width: 10%;       
+    height: auto; 
+}
+.Home-s4-p1-left-003 {
+    margin: 1px 0 5vh 5vh;
+    display: flex;  
+    /* flex-direction: row;  */
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;  
+
+}
+  
+.Home-s4-p1-left-002 a {
+    margin: 1px 0 5vh 5vh;
+    display: flex;  
+    align-items: center;
+    gap: 0px;  
+}
+
+.email-link {
+    display: flex;               /* Align image and text horizontally */
+    align-items: center;         /* Center items vertically */
+    text-decoration: none;       /* Remove underline from the text */
+    color: white;                /* Set the text color to white */
+  }
+  
+  .email-link img {
+    width: 24px;                 /* Adjust image size as needed */
+    height: 24px;                /* Maintain aspect ratio or adjust */
+    margin-right: 10px;          /* Space between image and text */
+  }
+  
+  .email-link h4 {
+    margin: 0;                   /* Remove default margin */
+    color: white;                /* Ensure the text color is white */
+  }
+  
