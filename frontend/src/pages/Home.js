@@ -20,7 +20,6 @@ function Home() {
         
         <div>
         <div className='Home-s2'>
-            <div className='Home-s2-p1-whole'>
                 <div className='Home-s2-p1'>
                     <div>
                     <p>This is the space to introduce visitors to the <br/> business or brand. Briefly explain who's behind <br/> it, what it does and what makes it unique. Share <br/> its core values and what this site has to offer. </p>
@@ -29,7 +28,7 @@ function Home() {
                     </Link>
                     </div>
                     <img src={logo1}/>        
-                </div>
+               
                 
             </div>
             <div> 
