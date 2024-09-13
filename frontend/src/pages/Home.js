@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import logo1 from '../assets/h-s1-img.png';
+import logo2 from '../assets/h4b-logo.png';
+import logo3 from '../assets/mnzi-logo.png';
+import logo4 from '../assets/gfg-logo.png';
+import logo5 from '../assets/dised-logo.png';
 function Home() {
 
     const handleClick = () => {
@@ -21,29 +25,30 @@ function Home() {
         <div>
         <div className='Home-s2'>
                 <div className='Home-s2-p1'>
-                    <div>
+                    <div className='Home-s2-p1-5'>
                     <p>This is the space to introduce visitors to the <br/> business or brand. Briefly explain who's behind <br/> it, what it does and what makes it unique. Share <br/> its core values and what this site has to offer. </p>
-                    <Link to="/about">
-                    <button>Learn More About Us</button>
-                    </Link>
+                    <img src={logo1}/>  
                     </div>
-                    <img src={logo1}/>        
+                    <div>
+                    <Link to="/about" className='learn-about'>
+                        <p className='learn-about-p'>Learn More About Us</p>
+                    </Link>
+                    </div>    
+                </div>
                
-                
-            </div>
-            <div> 
-                {/* Will contain the blank space */}
-            </div>
-            <div>
+            <div className='Home-s2-p2'>
                 <p>Among Our Client</p>
             </div>
-            <div>
-                <h3>
+            <div className='Home-s2-p3'>
+                <h1>
                 PROUD TO WORK WITH
-                </h3>
+                </h1>
             </div>
-            <div> {/* Collaborators pictures */}
-                
+            <div className='Home-s2-p4-logo'> {/* Collaborators pictures */}
+                <img src={logo2}/>
+                <img src={logo3}/>
+                <img src={logo4}/>
+                <img src={logo5}/>
             </div>
 
         </div>

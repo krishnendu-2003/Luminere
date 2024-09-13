@@ -1,5 +1,4 @@
 .Main-Container{
-    /* background-color: black; */
     color: white;
 }
 .Home-s1 {
@@ -7,7 +6,7 @@
     width: 100vw; 
     display: flex;
     justify-content: center; 
-    flex-direction: column;    /* Stack items vertically */
+    flex-direction: column; 
 
     align-items: center; 
     background-color: #000; 
@@ -37,20 +36,68 @@
     color: black;
 }
 
-.Home-s2-p1 {
+.Home-s2-p1-5 {
     display: flex;  
     align-items: center;     
     gap: 100px;               
     justify-content: center;
+    margin-top: 20vh;
+    
 }
-.Home-s2-p1 p {
+.Home-s2-p1-5 p {
     font-size: 28px;   
     font-Family: 'Roboto Mono';
     letter-Spacing: 1.12;
 
 }
-  .Home-s2-p1 img {
+  .Home-s2-p1-5 img {
     max-width: 20%;       
     height: auto;       
 }
-  
+.learn-about {
+    text-decoration: none;
+    color: inherit;
+}
+
+.learn-about-p {
+    border: 2px solid #ff6f1c;
+    padding: 10px;              
+    display: inline-block;      
+    border-radius: 1px;  
+    font-weight: bolder;
+    margin-left: 40vh;
+    letter-spacing: 4px;
+}
+
+
+.Home-s2-p2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Home-s2-p2 p {
+    margin: 40px;
+    font-size: 28px;
+    font-weight: 250;
+}
+.Home-s2-p3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Home-s2-p3 h1 {
+    font-size: 38px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.Home-s2-p4-logo {
+    margin: 5vh 0 5vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Home-s2-p4-logo img {
+    max-width: 20%;       
+    height: auto; 
+}
