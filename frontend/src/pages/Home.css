@@ -1,5 +1,5 @@
 .Main-Container{
-    background-color: black;
+    /* background-color: black; */
     color: white;
 }
 .Home-s1 {
@@ -33,4 +33,25 @@
     padding:0 20px 0 20px;
 }
 
+.Home-s2{
+    color: black;
+}
+
+.Home-s2-p1 {
+    display: flex;            /* Enable flexbox */
+    align-items: center;      /* Vertically center items */
+    gap: 100px;                /* Optional: space between the elements */
+    /* padding: 0 30px 0 30px; */
+    justify-content: center;
+  }
+  .Home-s2-p1 p {
+    font-size: 28px;   
+    font-Family: 'Roboto Mono';
+    letter-Spacing: 1.12;
+
+  }
+  .Home-s2-p1 img {
+    max-width: 20%;          /* Make sure image is responsive */
+    height: auto;             /* Maintain aspect ratio */
+  }
   
