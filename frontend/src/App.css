@@ -1,9 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .nav-bar {
   background-color: black;
   display: grid;
   grid-auto-flow: column;
   align-items: center;
   justify-content: space-between;
+
 }
 
 .nav-address {
@@ -54,7 +60,7 @@
 
 @media (max-width: 480px) {
   .nav-bar {
-    padding: 5px; /* Adjust padding for smaller screens */
+    padding: 5px; 
   }
 
   .nav-address {

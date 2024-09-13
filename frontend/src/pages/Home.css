@@ -1,0 +1,19 @@
+.Main-Container{
+    background-color: black;
+    color: white;
+}
+.Home-s1 {
+    height: 100vh;            
+    width: 100vw; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #000; 
+  }
+  
+  .Home-s1-alpha {
+    text-align: center;
+    color: white; 
+    font-size: 24px; 
+  }
+  
