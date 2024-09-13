@@ -24,7 +24,7 @@ function Home() {
         
         <div>
         <div className='Home-s2'>
-                <div className='Home-s2-p1'>
+            <div className='Home-s2-p1'>
                     <div className='Home-s2-p1-5'>
                     <p>This is the space to introduce visitors to the <br/> business or brand. Briefly explain who's behind <br/> it, what it does and what makes it unique. Share <br/> its core values and what this site has to offer. </p>
                     <img src={logo1}/>  
@@ -34,8 +34,7 @@ function Home() {
                         <p className='learn-about-p'>Learn More About Us</p>
                     </Link>
                     </div>    
-                </div>
-               
+            </div>         
             <div className='Home-s2-p2'>
                 <p>Among Our Client</p>
             </div>
@@ -53,10 +52,28 @@ function Home() {
 
         </div>
         </div>
-        <div>
 
+        <div className='Home-s3'>
+            <div className='Home-s3-p1'>
+                <p>Testimonials</p>
+            </div>
+            <div className='Home-s3-p2'>
+                <h1>STRAIGHT FROM FEED</h1>
+            </div>
+            <div className='Home-s3-p3'>
+            <div className='Home-s3-p3-hook'>
+                <img src={require('../assets/arrow-left.png')} alt='left arrow '/>
+            </div>
+            <div className='Home-s3-p3-okp'>
+                <p>“Share something positive a past client has <br/> said and encourage potential clients to get <br/> onboard...”</p>
+            </div>
+            <div className='Home-s3-p3-hook'>
+            <img src={require('../assets/arrow-right.png')} alt='right arrow'/>
+            </div>
         </div>
-        <div>
+        </div>
+        
+        <div className='Home-s4'>
 
         </div>
         </div>
