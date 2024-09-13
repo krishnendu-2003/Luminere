@@ -47,7 +47,7 @@
 .Home-s2-p1-5 p {
     font-size: 28px;   
     font-family: 'Roboto Mono'; /* Corrected property name */
-    letter-spacing: 1.12px; /* Corrected property value */
+    letter-spacing: 2.12px; /* Corrected property value */
 }
 
 .Home-s2-p1-5 img {
@@ -59,6 +59,7 @@
     text-decoration: none;
     color: inherit;
 }
+
 
 .learn-about-p {
     border: 2px solid #ff6f1c;
@@ -154,7 +155,10 @@
 .Home-s4 {
     background-color: #000;
 }
-
+.Home-s4-p1{
+    display: flex;  
+    flex-direction: column; 
+}
 .Home-s4-p1 {
     display: flex;  
     flex-direction: row; 
@@ -244,6 +248,24 @@
     .Home-s2-p1-5 p {
         font-size: 24px; /* Adjust text size */
     }
+    .learn-about-p {
+        margin-left: 30vh;
+        letter-spacing: 3px;
+    }
+    .Home-s2-p1-5 {
+        gap: 60px;
+    }
+    .Home-s4-p1{
+        display: flex;  
+        flex-direction: column; 
+    }
+    .Home-s4-p1-right {
+        display: flex;  
+        flex-direction: column; 
+        margin: 5vh;
+
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -267,6 +289,25 @@
     .Home-s2-p1-5 img {
         max-width: 40%; /* Adjust image size */
     }
+    .learn-about-p {
+        margin-left: 20vh;
+        letter-spacing: 2.5px;
+    }
+    .Home-s2-p1-5 {
+        gap: 40px;
+    }
+    .Home-s4-p1{
+        display: flex;  
+        flex-direction: column; 
+    }
+    .Home-s4-p1-right {
+        display: flex;  
+        flex-direction: column; 
+        margin: 5vh;
+
+    }
+    
+
 }
 
 @media (max-width: 480px) {
@@ -285,5 +326,22 @@
 
     .Home-s2-p1-5 img {
         max-width: 50%; /* Adjust image size */
+    }
+    .learn-about-p {
+        margin-left: 10vh;
+        letter-spacing: 1.5px;
+    }
+    .Home-s2-p1-5 {
+        gap: 30px;
+    }
+    .Home-s4-p1{
+        display: flex;  
+        flex-direction: column; 
+    }
+    .Home-s4-p1-right {
+        display: flex;  
+        flex-direction: column; 
+        margin: 5vh;
+
     }
 }
