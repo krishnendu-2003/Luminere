@@ -6,9 +6,9 @@ function About() {
     <div className='Main-container'>
       <div className='About-s1'>
         <img src={require('../assets/crayon-welcome.png')} alt='Welcome img'/>
-        <h3>SEEKING POWERFUL STORYTELLING? WE'RE THE <br/> BEST CHOICE.</h3>
+        {/* <h3>SEEKING POWERFUL STORYTELLING? WE'RE THE <br/> BEST CHOICE.</h3>
         <p className='About-s1-p'>This is the space to introduce visitors to the business or <br/> brand. Briefly explain who's behind it, what it does and what <br/> makes it unique. Share its core values and what this site has to <br/> offer.</p>
-        <button><p>Read More</p></button>
+        <button><p>Read More</p></button> */}
 
       </div>
     </div>

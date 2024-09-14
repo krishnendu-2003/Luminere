@@ -9,7 +9,7 @@
   grid-auto-flow: column;
   align-items: center;
   justify-content: space-between;
-
+ 
 }
 
 .nav-address {
@@ -69,3 +69,35 @@
 }
 
 
+
+
+
+/* Navbar */
+.nav-bar {
+  position: relative; /* Can be fixed if you want the navbar to stay at the top while scrolling */
+  z-index: 1; /* Ensure the navbar is below the image */
+  width: 100%;
+  background-color: #000; /* Example background color */
+}
+
+/* Main Container */
+.Main-container {
+  position: relative;
+  z-index: 2; /* Ensure content is above the navbar by default */
+}
+
+/* About Section */
+.About-s1 {
+  position: relative; /* Default relative positioning */
+  text-align: center;
+}
+
+/* Image */
+.About-s1 img {
+  position: absolute; /* Allows the image to overlap other content */
+  top: -120px; /* Adjust this to make the image overlap the navbar */
+  left: 50%; /* Center the image horizontally */
+  transform: translateX(-50%); /* Adjust for centering */
+  z-index: 3; /* Higher than navbar for overlap */
+  max-width: 100%;
+}
