@@ -15,7 +15,7 @@ function App() {
 
         <div className='nav-bar'>
         <div className='logo_here'> {/*This div is for putting the logo of luminere*/}
-          <img src={logo} />
+          <img src={logo} alt='logo' />
         </div>
        <div> {/*This div is for putting the menus of the navigation*/}
        <nav>
