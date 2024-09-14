@@ -16,8 +16,8 @@
     text-align: center;
     color: white; 
     font-size: 34px; 
-    font-weight: 700; /* Corrected property name */
-    letter-spacing: 4.8px; /* Corrected property value */
+    font-weight: 700; 
+    letter-spacing: 4.8px; 
 }
 
 .button-s1 {
