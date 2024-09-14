@@ -9,7 +9,11 @@ function About() {
         {/* <h3>SEEKING POWERFUL STORYTELLING? WE'RE THE <br/> BEST CHOICE.</h3>
         <p className='About-s1-p'>This is the space to introduce visitors to the business or <br/> brand. Briefly explain who's behind it, what it does and what <br/> makes it unique. Share its core values and what this site has to <br/> offer.</p>
         <button><p>Read More</p></button> */}
-
+      </div>
+      <div className='About-s1-p1'>
+              <h3>SEEKING POWERFUL STORYTELLING? WE'RE THE <br/> BEST CHOICE.</h3>
+        <p className='About-s1-p'>This is the space to introduce visitors to the business or <br/> brand. Briefly explain who's behind it, what it does and what <br/> makes it unique. Share its core values and what this site has to <br/> offer.</p>
+        <button><p>Read More</p></button>
       </div>
     </div>
   );
