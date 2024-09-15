@@ -11,7 +11,10 @@
   justify-content: space-between;
  
 }
-
+.logo_here img{
+  max-width: 80%;       
+  height: auto; 
+}
 .nav-address {
   display: grid;
   grid-auto-flow: column;
@@ -41,37 +44,6 @@
 
 
 
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-  .nav-bar {
-    grid-auto-flow: row; /* Stack items vertically on smaller screens */
-    justify-items: center;
-  }
-
-  .nav-address {
-    grid-auto-flow: row; /* Stack navigation items vertically */
-    text-align: center;
-  }
-
-  .nav-address li {
-    margin-bottom: 10px; /* Add space between items in vertical mode */
-  }
-}
-
-@media (max-width: 480px) {
-  .nav-bar {
-    padding: 5px; 
-  }
-
-  .nav-address {
-    gap: 10px; /* Reduce gap between items on smaller screens */
-  }
-}
-
-
-
-
-
 /* Navbar */
 .nav-bar {
   position: relative; /* Can be fixed if you want the navbar to stay at the top while scrolling */
@@ -98,6 +70,63 @@
   transform: translateX(-50%); /* Adjust for centering */
   z-index: 3; /* Higher than navbar for overlap */
   max-width: 100%;
+}
+
+
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .nav-bar {
+    grid-auto-flow: row; /* Stack items vertically on smaller screens */
+    justify-items: center;
+  }
+
+  .nav-address {
+    grid-auto-flow: row; /* Stack navigation items vertically */
+    text-align: center;
+  }
+
+  .nav-address li {
+    margin-bottom: 10px; /* Add space between items in vertical mode */
+  }
+  .logo_here img{
+    max-width: 70%;       
+    height: auto; 
+
+  }
+  .About-s1 img {
+    position: absolute; /* Allows the image to overlap other content */
+    top: -161px; /* Adjust this to make the image overlap the navbar */
+    left: 50%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    z-index: 3; /* Higher than navbar for overlap */
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-bar {
+    padding: 5px; 
+  }
+
+  .nav-address {
+    gap: 10px; /* Reduce gap between items on smaller screens */
+  }
+  .logo_here img{
+    max-width: 70%;   
+    height: auto; 
+
+  }
+  .About-s1 img {
+    position: absolute; /* Allows the image to overlap other content */
+    top: -138px; /* Adjust this to make the image overlap the navbar */
+    left: 50%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    z-index: 3; /* Higher than navbar for overlap */
+    max-width: 100%;
+  }
 }
 
 
