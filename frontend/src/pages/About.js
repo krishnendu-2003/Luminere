@@ -19,15 +19,15 @@ function About() {
         <div className='About-s2-container'>
         <div>
         <h4>PASSION</h4>
-        <p>We're obsessed with creating <br/> exceptional</p>
+        <p>We're obsessed with creating <br/> exceptional social media <br/> experiences.</p>
         </div>
         <div>
         <h4>INNOVATION</h4>
-        <p></p>
+        <p>We embrace new trends and <br/> technologies to stay ahead of <br/> the curve.</p>
         </div>
         <div>
         <h4>COLLABOTATION</h4>
-        <p></p>
+        <p>We believe in the power of <br/> team-work and partnership.</p>
         </div>
         <div>
         <h4>RESULTS</h4>
