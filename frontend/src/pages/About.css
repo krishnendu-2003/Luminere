@@ -72,20 +72,21 @@
 }
 
 .About-s2-container {
-    /* color: #000; */
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 70px;
 }
 .About-s2-container div {
-    /* background-color: lightblue; */
   padding: 20px;
   text-align: center;
-  /* border: 1px solid #ccc; */
 }
 .About-s2-container h4{
     color: #ff6f1c;
     font-size: 16px;
     margin-bottom: 20px;
     letter-spacing: 2px;
+}
+.About-s2-container p{
+    letter-spacing: 2px;
+    font-size: 14px;
 }
