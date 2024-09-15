@@ -9,12 +9,15 @@ function Contact() {
           <h2>Let's Do <br/><span className='Contact-s1-p1-highlight'> Something Interesting</span></h2>
           
         </div>
-        <div>
-          <div className='Contact-s1-p2'>
+        <div  className='Contact-s1-p2'>
+          <div className='Contact-s1-p2-left'>
             <img src={require('../assets/Line.png')} alt='Line'/>
             <p>Discuss your project and see how we can turn <br/>
             it into an amazing experience for your <br/> customers</p>
             <button><p>Write to Us</p></button>
+          </div>
+          <div>
+            <img src={require('../assets/crayon-2073.png')} alt='pic'/>
           </div>
         </div>
 

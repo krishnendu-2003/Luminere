@@ -1,3 +1,9 @@
+.Contact-s1 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
 .Contact-s1-p1 {
     color: #000;
 }
@@ -21,4 +27,20 @@
     background-color: #917666;
     border-color: #917666;
 
+}
+.Contact-s1-p2 {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.Contact-Container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Contact-s1-p2-left img {
+    max-width: 40%;       
+    height: auto; 
 }
