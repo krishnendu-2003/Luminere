@@ -39,9 +39,7 @@
     z-index: 3;
     font-family: "Gill Sans", sans-serif;
 }
-.dkjlfn{
-    color: black;
-}
+
 
 .About-s1-p1 button {
     padding: 10px 40px;
@@ -69,6 +67,10 @@
     align-items: center;
     justify-content: center;
 }
+.About-s2-p1 h2 {
+    margin: 50px 0 50px 0;
+}
+
 .About-s2-container {
     /* color: #000; */
     display: grid;
@@ -79,5 +81,11 @@
     /* background-color: lightblue; */
   padding: 20px;
   text-align: center;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
+}
+.About-s2-container h4{
+    color: #ff6f1c;
+    font-size: 16px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
 }
