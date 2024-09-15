@@ -31,18 +31,17 @@ function About() {
         </div>
         <div>
         <h4>RESULTS</h4>
-        <p></p>
+        <p>Our clients' success is out <br/> ultimate measure of success.</p>
         </div>
         <div>
         <h4>AUTHENTICITY</h4>
-        <p></p>
+        <p>We value genuine connections <br/> and honest communication.</p>
         </div>
         <div>
         <h4>EMPATHY</h4>
-        <p></p>
+        <p>We understand your world</p>
         </div>
        
-
         </div>
       </div>
     </div>
