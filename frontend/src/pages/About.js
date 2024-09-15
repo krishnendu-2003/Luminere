@@ -17,12 +17,31 @@ function About() {
           <h2>OUR VALUES</h2>
         </div>
         <div className='About-s2-container'>
-        <div><p>hjsavfhjf</p></div>
-        <div><p>hjsavfhjf</p></div>
-        <div><p>hjsavfhjf</p></div>
-        <div><p>hjsavfhjf</p></div>
-        <div><p>hjsavfhjf</p></div>
-        <div><p>hjsavfhjf</p></div>
+        <div>
+        <h4>PASSION</h4>
+        <p>We're obsessed with creating <br/> exceptional</p>
+        </div>
+        <div>
+        <h4>INNOVATION</h4>
+        <p></p>
+        </div>
+        <div>
+        <h4>COLLABOTATION</h4>
+        <p></p>
+        </div>
+        <div>
+        <h4>RESULTS</h4>
+        <p></p>
+        </div>
+        <div>
+        <h4>AUTHENTICITY</h4>
+        <p></p>
+        </div>
+        <div>
+        <h4>EMPATHY</h4>
+        <p></p>
+        </div>
+       
 
         </div>
       </div>
