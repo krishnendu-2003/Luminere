@@ -34,16 +34,19 @@ function Contact() {
         <div className='enquiry-form'>
          
           <form>
-            <div className='form-group'>
+          <div className='form-row'> 
+          <div className='form-group underline-only'>
             {/* <p>sdv</p> */}
               <input type='text' placeholder='First Name' required/>
               <span className='underline'></span>
             </div>
-            <div className='form-group'>
+            <div className='form-group underline-only'>
             {/* <p>asf</p> */}
             <input type='text' placeholder='Last Name' required />
             <span className='underline'></span>
             </div>
+          </div>
+            
             <div className='form-group'>
             <input type='email' placeholder='Email' required />
             <span className='underline'></span>
