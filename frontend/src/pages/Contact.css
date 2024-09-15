@@ -69,7 +69,7 @@ line-height: 3vh;
   /* justify-content: space-between; */
   justify-content: center;
   gap: 60vh;    /* Gap between the best is yet to come and the form*/
-  max-gap: 70vh;
+  /* max-gap: 70vh; */
   align-items: center;
   padding: 40px 0;
 }
