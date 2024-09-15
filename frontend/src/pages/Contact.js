@@ -3,7 +3,9 @@ import './Contact.css'
 
 function Contact() {
   return (
-    <div className='Contact-Container'>
+    
+    <div className='Main-container'>
+<div className='Contact-Container'>
       <div className='Contact-s1'>
         <div className='Contact-s1-p1'>
           <h2>Let's Do <br/><span className='Contact-s1-p1-highlight'> Something Interesting</span></h2>
@@ -22,7 +24,41 @@ function Contact() {
         </div>
 
       </div>
+
+     
     </div>
+    <div className='Contact-s2'>
+        <div>
+          <h4>The Best is Yet to <br/> Come!</h4>
+        </div>
+        <div className='enquiry-form'>
+         
+          <form>
+            <div className='form-group'>
+            {/* <p>sdv</p> */}
+              <input type='text' placeholder='First Name' required/>
+              <span className='underline'></span>
+            </div>
+            <div className='form-group'>
+            {/* <p>asf</p> */}
+            <input type='text' placeholder='Last Name' required />
+            <span className='underline'></span>
+            </div>
+            <div className='form-group'>
+            <input type='email' placeholder='Email' required />
+            <span className='underline'></span>
+            </div>
+            <div className='form-group'>
+            <textarea placeholder='Your Message' rows='4' required></textarea>
+            <span className='underline'></span>
+            </div>
+            <button type='submit'>Submit</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+    
   );
 }
 
