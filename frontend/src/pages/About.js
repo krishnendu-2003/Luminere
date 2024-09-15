@@ -1,5 +1,7 @@
 import React from 'react';
-import './About.css'
+import './About.css';
+import Details from './details';
+
 
 function About() {
   return (
@@ -44,7 +46,9 @@ function About() {
        
         </div>
       </div>
+      <Details/>
     </div>
+    
   );
 }
 
