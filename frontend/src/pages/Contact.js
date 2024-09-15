@@ -1,15 +1,38 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './Contact.css';
 import Details from './details';
+import axios from 'axios';
+
 
 function Contact() {
   // Create a ref for the enquiry form container
   const enquiryFormRef = useRef(null);
 
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    message: ''
+  });
+
   // Function to scroll to the enquiry form container
   const scrollToForm = () => {
     if (enquiryFormRef.current) {
       enquiryFormRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await axios.post('http://localhost:5001/send-email', formData);
+      alert('Your message has been sent!');
+      setFormData({ firstName: '', lastName: '', email: '', message: '' });
+    } catch (error) {
+      alert('There was an error sending your message.');
     }
   };
 
@@ -40,25 +63,53 @@ function Contact() {
         </div>
         {/* Add ref to the enquiry-form container */}
         <div className='enquiry-form' ref={enquiryFormRef}>
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className='form-row'>
               <div className='form-group side-by-side'>
-                <input type='text' placeholder='First Name' required />
+              <input
+                  type='text'
+                  name='firstName'
+                  placeholder='First Name'
+                  value={formData.firstName}
+                  onChange={handleChange}
+                  required
+                />
                 <span className='underline'></span>
               </div>
               <div className='form-group side-by-side'>
-                <input type='text' placeholder='Last Name' required />
+              <input
+                  type='text'
+                  name='lastName'
+                  placeholder='Last Name'
+                  value={formData.lastName}
+                  onChange={handleChange}
+                  required
+                />
                 <span className='underline'></span>
               </div>
             </div>
 
             <div className='form-group full-width'>
-              <input type='Email' placeholder='Email' required />
+            <input
+                type='email'
+                name='email'
+                placeholder='Email'
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
               <span className='underline'></span>
             </div>
 
             <div className='form-group full-width'>
-              <textarea placeholder='Your Message' rows='4' required></textarea>
+            <textarea
+                name='message'
+                placeholder='Your Message'
+                rows='4'
+                value={formData.message}
+                onChange={handleChange}
+                required
+              ></textarea>
               <span className='underline'></span>
             </div>
             <button type='submit'>Submit</button>
