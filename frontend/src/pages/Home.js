@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
-import logo from '../assets/Lum_nereLogo1.png';
+// import logo from '../assets/Lum_nereLogo1.png';
 import logo1 from '../assets/h-s1-img.png';
 import logo2 from '../assets/h4b-logo.png';
 import logo3 from '../assets/mnzi-logo.png';
@@ -12,7 +12,6 @@ import Details from './details';
 function Home() {
 
     const handleClick = () => {
-        // Do something when the button is clicked
         console.log('Button clicked!');
       };
 
