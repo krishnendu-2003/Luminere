@@ -68,8 +68,7 @@ line-height: 3vh;
     display: flex;
   /* justify-content: space-between; */
   justify-content: center;
-  gap: 60vh;    /* Gap between the best is yet to come and the form*/
-  /* max-gap: 70vh; */
+ gap: 60vh;      /*Gap between the best is yet to come and the form */
   align-items: center;
   padding: 40px 0;
 }
@@ -148,4 +147,73 @@ line-height: 3vh;
 
 .enquiry-form button:hover {
     background-color: #555;
+}
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .Contact-s2 {
+        gap: 20vh; /* Adjust gap for medium screens */
+    }
+
+    .Contact-s1-p1 {
+        font-size: 28px;
+    }
+
+    .Contact-s1-p1-highlight {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .Contact-s1-p2 {
+        flex-direction: column; /* Stack vertically on smaller screens */
+        align-items: center;
+    }
+
+    .Contact-s1-p2-left img,
+    .Contact-s1-p2-right img {
+        max-width: 100%; /* Ensure images fit smaller screens */
+    }
+
+    .Contact-s2 {
+        gap: 10vh; /* Further reduce gap on smaller screens */
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .Contact-s2 h4 {
+        font-size: 36px; /* Adjust font size for smaller screens */
+    }
+
+    .side-by-side {
+        width: 100%; /* Full width for form fields on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .Contact-s1-p1 {
+        font-size: 22px;
+    }
+
+    .Contact-s1-p1-highlight {
+        font-size: 40px;
+    }
+
+    .Contact-s1-p2 button {
+        padding: 8px 20px;
+        font-size: 14px;
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+    }
+
+    .enquiry-form {
+        padding: 10px;
+    }
+
+    .form-row {
+        flex-direction: column; /* Stack form fields vertically on small screens */
+    }
 }
