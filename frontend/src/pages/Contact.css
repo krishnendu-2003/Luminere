@@ -75,46 +75,62 @@ line-height: 3vh;
 }
 
 
+
 .enquiry-form {
     background-color: white;
-    /* color: #000; */
     border-radius: 20px;
 }
+
 .enquiry-form form {
-    background-color: white;
     display: flex;
     flex-direction: column;
-
     margin: 20px;
-    /* border-radius: 20px; */
 }
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
 .form-group {
     position: relative;
     margin-bottom: 20px;
 }
 
+.side-by-side {
+    width: 48%; 
+}
+
+.full-width {
+    width: 100%; 
+}
+
+/* Input and textarea styling */
 .form-group input,
 .form-group textarea {
-  width: 100%;
-  border: none;
-  /* border-bottom: 2px solid #ccc; */
-  padding: 10px 0;
-  font-size: 1.1em;
-  background-color: transparent;
-  outline: none;
+    width: 100%;
+    border: none;
+    /* border-bottom: 3px solid #ccc; */
+    padding: 10px 0;
+    font-size: 1.1em;
+    background-color: transparent;
+    outline: none;
 }
 
-.form-group textarea {
-    resize: none;
-}
-
+/* Underline Styling */
 .underline {
-    content: '';
     display: block;
     height: 2px;
     background-color: #767272;
     margin-top: 5px;
 }
+
+/* Textarea specific */
+.form-group textarea {
+    resize: none;
+}
+
+/* Submit Button */
 .enquiry-form button {
     padding: 10px 20px;
     background-color: #333;
@@ -124,29 +140,7 @@ line-height: 3vh;
     font-size: 1.2em;
     border-radius: 20px;
 }
+
 .enquiry-form button:hover {
     background-color: #555;
 }
-.form-row {
-    display: flex;
-    justify-content: space-between;
-  }
-
-.underline-only input {
-    border-bottom: 2px solid #ccc; 
-}
-
-.form-group textarea {
-    resize: none;
-}
-
-.form-group {
-    position: relative;
-    margin-bottom: 20px;
-    width: 48%; /* For side-by-side alignment */
-}
-  
-
-
-  
-
