@@ -14,9 +14,9 @@ function Contact() {
             <img src={require('../assets/Line.png')} alt='Line'/>
             <p>Discuss your project and see how we can turn <br/>
             it into an amazing experience for your <br/> customers</p>
-            <button><p>Write to Us</p></button>
+            <button>Write to Us</button>
           </div>
-          <div>
+          <div className='Contact-s1-p2-right'>
             <img src={require('../assets/crayon-2073.png')} alt='pic'/>
           </div>
         </div>

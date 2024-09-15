@@ -6,16 +6,21 @@
 }
 .Contact-s1-p1 {
     color: #000;
+    font-size: 34px;
+    letter-spacing: 3px;
+    margin-top: 60px;
 }
 .Contact-s1-p1-highlight {
     color: #ff6f1c;
+    font-size: 64px;
+    letter-spacing: 7px;
 }
 .Contact-s1-p2 button {
     padding: 10px 40px;
     font-size: 16px;
     font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 20vh;
+    margin-top: 10vh;
+    /* margin-bottom: 20vh; */
     border-color: #ff6f1c;
     letter-spacing: 2px;
     background-color: #ff6f1c;
@@ -40,7 +45,17 @@
     align-items: center;
     display: flex;
 }
+
+.Contact-s1-p2-left p{
+margin: 20px 0 0 0;
+letter-spacing: 4px;
+line-height: 3vh;
+}
 .Contact-s1-p2-left img {
-    max-width: 40%;       
+    max-width: 70%;       
+    height: auto; 
+}
+.Contact-s1-p2-right img {
+    max-width: 80%;       
     height: auto; 
 }
