@@ -20,7 +20,7 @@
     font-size: 16px;
     font-weight: bold;
     margin-top: 10vh;
-    /* margin-bottom: 20vh; */
+    margin-bottom: 20vh;
     border-color: #ff6f1c;
     letter-spacing: 2px;
     background-color: #ff6f1c;
@@ -59,19 +59,23 @@ line-height: 3vh;
     max-width: 80%;       
     height: auto; 
 }
+
+
+
 .Contact-s2 {
     background-color: #000;
     color: white;
-}
-
-
-.Contact-s2 {
     display: flex;
   /* justify-content: space-between; */
   justify-content: center;
-  gap: 60vh;
+  gap: 60vh;    /* Gap between the best is yet to come and the form*/
+  max-gap: 70vh;
   align-items: center;
   padding: 40px 0;
+}
+.Contact-s2 h4 {
+    color: #ff6f1c;
+    font-size: 50px;
 }
 
 
@@ -123,6 +127,7 @@ line-height: 3vh;
     height: 2px;
     background-color: #767272;
     margin-top: 5px;
+    margin-bottom: 4vh;
 }
 
 /* Textarea specific */
@@ -133,7 +138,7 @@ line-height: 3vh;
 /* Submit Button */
 .enquiry-form button {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #000;
     color: white;
     border: none;
     cursor: pointer;
