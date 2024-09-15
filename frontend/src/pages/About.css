@@ -64,4 +64,20 @@
 .About-s2 {
     background-color: #000;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.About-s2-container {
+    /* color: #000; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px;
+}
+.About-s2-container div {
+    /* background-color: lightblue; */
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
 }

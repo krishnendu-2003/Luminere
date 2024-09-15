@@ -16,6 +16,15 @@ function About() {
         <div className='About-s2-p1'>
           <h2>OUR VALUES</h2>
         </div>
+        <div className='About-s2-container'>
+        <div><p>hjsavfhjf</p></div>
+        <div><p>hjsavfhjf</p></div>
+        <div><p>hjsavfhjf</p></div>
+        <div><p>hjsavfhjf</p></div>
+        <div><p>hjsavfhjf</p></div>
+        <div><p>hjsavfhjf</p></div>
+
+        </div>
       </div>
     </div>
   );
