@@ -2,6 +2,8 @@ const express = require('express');
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+require('dotenv').config();
+
 
 const app = express();
 const port = 5001;
@@ -13,8 +15,8 @@ const transporter = nodemailer.createTransport({
     host: 'smtp.ethereal.email',
     port: 587,
     auth: {
-        user: 'vicenta.jacobi@ethereal.email',
-        pass: 'DJe1JHJp2zden8hdUr'
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS
     }
 });
 
