@@ -31,6 +31,9 @@
 .button-s1 p {
     padding: 0 20px;
 }
+.button-s1:hover {
+    background-color: #cbc5c5;
+}
 
 .Home-s2 {
     color: black;
@@ -58,6 +61,10 @@
 .learn-about {
     text-decoration: none;
     color: inherit;
+}
+.learn-about-p:hover {
+    background-color: #ff6f1c;
+    /* color: white; */
 }
 
 
