@@ -22,8 +22,27 @@ function App() {
           <ul class='nav-address'>
             <li style={{color:'white'}}><Link to="/">Home</Link></li>
             <li><Link to="/about">About Us</Link></li>
-            <li className='work-hover'>Work</li>
-            <li className='services-hover'>Services</li>
+            <li className='work-hover'>
+              Work
+              <ul className='dropdown'>
+              <li><Link to="#">Branding</Link></li>
+                    <li><Link to="#">Digital Marketing</Link></li>
+                    <li><Link to="#">Website and App</Link></li>
+                    <li><Link to="#">Production</Link></li>
+
+              </ul>
+            </li>
+            <li className='services-hover'>
+              Services
+              <ul className='dropdown'>
+              <li><Link to="#">Brand Identity</Link></li>
+                    <li><Link to="#">Video Promotion</Link></li>
+                    <li><Link to="#">Social Media Promotion</Link></li>
+                    <li><Link to="#">Brand Photography</Link></li>
+                    <li><Link to="#">Website Building</Link></li>
+                    <li><Link to="#">App Development and Design</Link></li>
+              </ul>
+            </li>
             <li><Link to="/contact">Contact</Link></li>
             <li><Link to="/testimonials">Testimonials</Link></li>
           </ul>
