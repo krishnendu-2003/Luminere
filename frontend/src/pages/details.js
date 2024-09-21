@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/Lum_nereLogo1.png';
-// import './details.css';
+import './details.css';
 
 
 
