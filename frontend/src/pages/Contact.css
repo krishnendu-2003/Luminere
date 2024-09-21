@@ -69,12 +69,13 @@ line-height: 3vh;
   /* justify-content: space-between; */
   justify-content: center;
  gap: 60vh;      /*Gap between the best is yet to come and the form */
-  align-items: center;
+  /* align-items: center; */
   padding: 40px 0;
 }
 .Contact-s2 h4 {
+    padding-top: 10vh;
     color: #ff6f1c;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 
