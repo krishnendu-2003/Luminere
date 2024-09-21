@@ -64,7 +64,8 @@
 }
 .learn-about-p:hover {
     background-color: #ff6f1c;
-    /* color: white; */
+    color: white;
+    transform: scale(1.05); 
 }
 
 
@@ -76,6 +77,7 @@
     font-weight: bolder;
     margin-left: 40vh;
     letter-spacing: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; 
 }
 
 .Home-s2-p2 {
